@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Tags Explained</title>
+
+    <!-- meta: provides browser information -->
+    <meta name="description" content="HTML5 tags with explanations">
+
+    <!-- link: connects external resources like CSS -->
+    <link rel="icon" href="#">
+
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        section { margin-bottom: 40px; padding: 10px; border: 1px solid #ddd; }
+        code { background: #f4f4f4; padding: 2px 5px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 6px; }
+    </style>
+</head>
+
+<body>
+
+<!-- DOCTYPE + HTML ROOT -->
+<section>
+    <h2>&lt;!DOCTYPE html&gt; and &lt;html&gt;</h2>
+    <p><code>&lt;!DOCTYPE html&gt;</code> tells browser this is HTML5.</p>
+    <p><code>&lt;html&gt;</code> is the root of the entire webpage.</p>
+</section>
+
+<!-- HEAD -->
+<section>
+    <h2>&lt;head&gt;</h2>
+    <p>Contains metadata like title, SEO info, links, scripts.</p>
+</section>
+
+<!-- TITLE -->
+<section>
+    <h2>&lt;title&gt;</h2>
+    <p>Defines the browser tab name.</p>
+</section>
+
+<!-- BODY -->
+<section>
+    <h2>&lt;body&gt;</h2>
+    <p>All visible content goes inside body.</p>
+</section>
+
+<!-- HEADER -->
+<section>
+    <h2>&lt;header&gt;</h2>
+    <p>Top section of a page (logo, heading, navigation).</p>
+</section>
+
+<!-- NAV -->
+<section>
+    <h2>&lt;nav&gt;</h2>
+    <p>Contains navigation links.</p>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a>
+    </nav>
+</section>
+
+<!-- MAIN -->
+<section>
+    <h2>&lt;main&gt;</h2>
+    <p>Main content of the page (only one per page recommended).</p>
+</section>
+
+<!-- SECTION -->
+<section>
+    <h2>&lt;section&gt;</h2>
+    <p>Groups related content into sections.</p>
+</section>
+
+<!-- ARTICLE -->
+<section>
+    <h2>&lt;article&gt;</h2>
+    <p>Independent content like blog post or news article.</p>
+
+    <article>
+        <h3>Example Article</h3>
+        <p>This is an article content.</p>
+    </article>
+</section>
+
+<!-- ASIDE -->
+<section>
+    <h2>&lt;aside&gt;</h2>
+    <p>Side content like sidebar or ads.</p>
+    <aside>Sidebar info here</aside>
+</section>
+
+<!-- FOOTER -->
+<section>
+    <h2>&lt;footer&gt;</h2>
+    <p>Bottom section of page (copyright, links).</p>
+</section>
+
+<!-- TEXT -->
+<section>
+    <h2>Text Tags</h2>
+
+    <p><b>&lt;b&gt;</b> → Bold text (visual only)</p>
+    <p><strong>&lt;strong&gt;</strong> → Important text</p>
+    <p><i>&lt;i&gt;</i> → Italic text</p>
+    <p><em>&lt;em&gt;</em> → Emphasized text</p>
+    <p><mark>&lt;mark&gt;</mark> → Highlighted text</p>
+    <p><small>&lt;small&gt;</small> → Small text</p>
+    <p><del>&lt;del&gt;</del> → Deleted text</p>
+    <p><ins>&lt;ins&gt;</ins> → Inserted text</p>
+    <p>H<sub>2</sub>O → Subscript</p>
+    <p>X<sup>2</sup> → Superscript</p>
+</section>
+
+<!-- LISTS -->
+<section>
+    <h2>Lists</h2>
+
+    <p>&lt;ul&gt; → Unordered list</p>
+    <ul>
+        <li>Item 1</li>
+    </ul>
+
+    <p>&lt;ol&gt; → Ordered list</p>
+    <ol>
+        <li>Item 1</li>
+    </ol>
+
+    <p>&lt;dl&gt; → Description list</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Markup Language</dd>
+    </dl>
+</section>
+
+<!-- MEDIA -->
+<section>
+    <h2>Media Tags</h2>
+
+    <p>&lt;a&gt; → Hyperlink</p>
+    <a href="https://google.com">Go to Google</a><br><br>
+
+    <p>&lt;img&gt; → Image</p>
+    <img src="https://via.placeholder.com/150" alt="Sample"><br><br>
+
+    <p>&lt;audio&gt; → Audio player</p>
+    <audio controls></audio><br>
+
+    <p>&lt;video&gt; → Video player</p>
+    <video controls width="200"></video>
+</section>
+
+<!-- TABLE -->
+<section>
+    <h2>Table Tags</h2>
+
+    <p>&lt;table&gt; → Table structure</p>
+    <table>
+        <thead>
+            <tr>
+                <th>&lt;th&gt; Header</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;td&gt; Data</td>
+                <td>Developer</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">&lt;tfoot&gt; Footer row</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+<!-- FORM -->
+<section>
+    <h2>Form Tags</h2>
+
+    <p>&lt;form&gt; → Form container</p>
+
+    <form>
+        <label>&lt;label&gt; Name:</label>
+        <input type="text"><br><br>
+
+        <p>&lt;input&gt; → Input field</p>
+        <input type="email" placeholder="Email"><br><br>
+
+        <p>&lt;textarea&gt; → Multi-line input</p>
+        <textarea></textarea><br><br>
+
+        <p>&lt;select&gt; + &lt;option&gt;</p>
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select><br><br>
+
+        <button>&lt;button&gt; Submit</button>
+    </form>
+</section>
+
+<!-- INTERACTIVE -->
+<section>
+    <h2>Interactive Tags</h2>
+
+    <p>&lt;details&gt; + &lt;summary&gt;</p>
+    <details>
+        <summary>Click here</summary>
+        Hidden content shown when expanded.
+    </details>
+
+    <p>&lt;progress&gt; → Progress bar</p>
+    <progress value="60" max="100"></progress>
+
+    <p>&lt;meter&gt; → Measurement indicator</p>
+    <meter value="0.7"></meter>
+</section>
+
+<!-- EMBEDDED -->
+<section>
+    <h2>Embedded Content</h2>
+
+    <p>&lt;iframe&gt; → Embed webpage</p>
+    <iframe src="https://example.com" width="200"></iframe>
+</section>
+
+<!-- SCRIPT -->
+<section>
+    <h2>&lt;script&gt; and &lt;noscript&gt;</h2>
+
+    <p>&lt;script&gt; → JavaScript code</p>
+    <p>&lt;noscript&gt; → Message if JS is disabled</p>
+</section>
+
+<script>
+    console.log("HTML5 demo loaded");
+</script>
+
+<noscript>
+    JavaScript is not supported in this browser.
+</noscript>
+
+</body>
+</html>

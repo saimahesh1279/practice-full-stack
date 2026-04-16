@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz Portfolio | Dynamic & Responsive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glass-card animate__animated animate__fadeInDown">
+        <div id="high-score-badge">Best: 0%</div>
+        
+        <header>
+            <h1>WebDev Quiz</h1>
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+        </header>
+
+        <main id="quiz-box">
+            <div id="question-container">
+                <h2 id="question-text">Syncing database...</h2>
+                <div id="options-grid" class="options-grid"></div>
+            </div>
+            
+            <div class="actions">
+                <button id="submit-btn" class="main-btn">Lock In Answer</button>
+                <button id="next-btn" class="main-btn hidden">Proceed to Next →</button>
+            </div>
+        </main>
+
+        <section id="results-screen" class="hidden animate__animated animate__zoomIn">
+            <span class="trophy">🏆</span>
+            <h2>Certification Level</h2>
+            <div class="final-score"><span id="score-val">0</span>%</div>
+            <p id="feedback"></p>
+            <button onclick="location.reload()" class="main-btn">Attempt Again</button>
+        </section>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentIdx = 0;
+        let score = 0;
+        let selectedIdx = null;
+
+        // UI Selectors
+        const qContainer = document.getElementById('question-container');
+        const qText = document.getElementById('question-text');
+        const optionsGrid = document.getElementById('options-grid');
+        const progBar = document.getElementById('progress-bar');
+        const submitBtn = document.getElementById('submit-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const highScoreBadge = document.getElementById('high-score-badge');
+
+        // Application Initialization
+        window.onload = async () => {
+            updateHighScoreDisplay();
+            
+            try {
+                // Fetch externalized JSON data
+                const res = await fetch('questions.json');
+                if (!res.ok) throw new Error("Could not load questions.json. Use a local server (like Live Server).");
+                questions = await res.json();
+                renderQuestion();
+            } catch (err) {
+                qText.innerHTML = `<span style='color:#ff7675'>${err.message}</span><br><br><small>Tip: Browsers block 'fetch' for local files. Open this folder in VS Code and click 'Go Live'.</small>`;
+                submitBtn.style.display = 'none';
+            }
+        };
+
+        function updateHighScoreDisplay() {
+            const saved = localStorage.getItem('htmlMasterHighScore') || 0;
+            highScoreBadge.innerText = `Best: ${saved}%`;
+        }
+
+        function renderQuestion() {
+            const q = questions[currentIdx];
+            selectedIdx = null;
+            
+            // Animation handling
+            qContainer.classList.remove('animate__fadeInRight');
+            void qContainer.offsetWidth; // Force reflow
+            qContainer.classList.add('animate__animated', 'animate__fadeInRight');
+
+            qText.innerText = q.question;
+            optionsGrid.innerHTML = '';
+
+            q.options.forEach((opt, i) => {
+                const div = document.createElement('div');
+                div.className = 'opt-card';
+                div.innerText = opt;
+                div.onclick = () => {
+                    document.querySelectorAll('.opt-card').forEach(el => el.classList.remove('active'));
+                    div.classList.add('active');
+                    selectedIdx = i;
+                };
+                optionsGrid.appendChild(div);
+            });
+
+            // Calculate progress
+            progBar.style.width = `${((currentIdx) / questions.length) * 100}%`;
+        }
+
+        submitBtn.onclick = () => {
+            if (selectedIdx === null) {
+                qContainer.classList.add('animate__shakeX');
+                setTimeout(() => qContainer.classList.remove('animate__shakeX'), 500);
+                return;
+            }
+            
+            const correct = questions[currentIdx].answer;
+            const cards = document.querySelectorAll('.opt-card');
+            
+            cards.forEach((card, i) => {
+                if (i === correct) card.classList.add('correct');
+                else if (i === selectedIdx) card.classList.add('wrong');
+                card.style.pointerEvents = 'none';
+            });
+
+            if (selectedIdx === correct) score++;
+            submitBtn.classList.add('hidden');
+            nextBtn.classList.remove('hidden');
+        };
+
+        nextBtn.onclick = () => {
+            currentIdx++;
+            if (currentIdx < questions.length) {
+                renderQuestion();
+                nextBtn.classList.add('hidden');
+                submitBtn.classList.remove('hidden');
+            } else {
+                showFinalResults();
+            }
+        };
+
+        function showFinalResults() {
+            document.getElementById('quiz-box').classList.add('hidden');
+            const resultScreen = document.getElementById('results-screen');
+            resultScreen.classList.remove('hidden');
+            
+            const percent = Math.round((score / questions.length) * 100);
+            document.getElementById('score-val').innerText = percent;
+
+            // Persistence logic
+            const currentBest = parseInt(localStorage.getItem('htmlMasterHighScore') || 0);
+            if (percent > currentBest) {
+                localStorage.setItem('htmlMasterHighScore', percent);
+                updateHighScoreDisplay();
+            }
+            
+            document.getElementById('feedback').innerText = percent >= 80 ? 
+                "Incredible! You have reached Professional status." : 
+                percent >= 50 ? "Solid understanding. Keep refining your skills!" : "Keep learning! Every expert was once a beginner.";
+        }
+    </script>
+</body>
+</html>

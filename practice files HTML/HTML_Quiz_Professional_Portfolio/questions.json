@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Tech Modern Language",
+            "Hyperlink and Text Management",
+            "Home Tool Markup Language"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which tag is used for the largest heading?",
+        "options": [
+            "<heading>",
+            "<h6>",
+            "<h1>",
+            "<head>"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": [
+            "<break>",
+            "<lb>",
+            "<br>",
+            "<next>"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which attribute is used to provide alternative text for an image?",
+        "options": [
+            "src",
+            "alt",
+            "title",
+            "link"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which HTML5 element is used to specify a footer?",
+        "options": [
+            "<bottom>",
+            "<footer>",
+            "<section>",
+            "<aside>"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How can you make a numbered list?",
+        "options": [
+            "<ul>",
+            "<list>",
+            "<ol>",
+            "<dl>"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which HTML element is used to define important text?",
+        "options": [
+            "<important>",
+            "<strong>",
+            "<i>",
+            "<mark>"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": [
+            "<a url='...'>",
+            "<a>...</a>",
+            "<a href='...'>",
+            "<link>"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which character is used to indicate an end tag?",
+        "options": [
+            "*",
+            "/",
+            "<",
+            "^"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which element is used to define a description list?",
+        "options": [
+            "<dl>",
+            "<list>",
+            "<ul>",
+            "<ol>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 11: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 12: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 13: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 14: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 15: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 16: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 17: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 18: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 19: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 20: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 21: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 22: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 23: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 24: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 25: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 26: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 27: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 28: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 29: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 30: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 31: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 32: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 33: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 34: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 35: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 36: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 37: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 38: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 39: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 40: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 41: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 42: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 43: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 44: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 45: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 46: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 47: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 48: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 49: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 50: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 51: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 52: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 53: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 54: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 55: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 56: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 57: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 58: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 59: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 60: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 61: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 62: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 63: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 64: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 65: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 66: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 67: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 68: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 69: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 70: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 71: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 72: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 73: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 74: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 75: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 76: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 77: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 78: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 79: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 80: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 81: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 82: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 83: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 84: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 85: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 86: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 87: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 88: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 89: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 90: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 91: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 92: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 93: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 94: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 95: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 96: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 97: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 98: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 99: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "HTML Question 100: Which element represents a placeholder for content?",
+        "options": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<placeholder>"
+        ],
+        "answer": 0
+    }
+]

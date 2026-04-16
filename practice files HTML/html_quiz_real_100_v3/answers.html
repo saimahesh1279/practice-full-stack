@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Results</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.correct{color:lightgreen}
+.wrong{color:red}
+.card{background:rgba(255,255,255,0.1);padding:10px;margin:10px;border-radius:10px}
+</style>
+</head>
+<body>
+<div class="app">
+<h1>Results</h1>
+<h2 id="score"></h2>
+<button onclick="restart()">Restart</button>
+<div id="out"></div>
+</div>
+
+<script>
+let score = localStorage.getItem("score");
+let data = JSON.parse(localStorage.getItem("answers"));
+
+document.getElementById("score").innerText = `Score: ${score}/100`;
+
+let out = document.getElementById("out");
+
+data.forEach((q)=>{
+let div=document.createElement("div");
+div.className="card";
+div.innerHTML=`
+<p><b>${q.question}</b></p>
+<p>Your: <span class="${q.selected===q.correct?'correct':'wrong'}">${q.selected}</span></p>
+<p>Correct: <span class="correct">${q.correct}</span></p>
+`;
+out.appendChild(div);
+});
+
+function restart(){
+localStorage.clear();
+window.location.href="index.html";
+}
+</script>
+</body>
+</html>

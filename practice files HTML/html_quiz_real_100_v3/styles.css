@@ -1,0 +1,6 @@
+body{margin:0;font-family:sans-serif;background:linear-gradient(135deg,#141e30,#243b55);color:white}
+.app{max-width:800px;margin:auto;padding:20px}
+.option{padding:10px;margin:8px 0;background:rgba(255,255,255,0.1);cursor:pointer;border-radius:10px}
+.option:hover{background:linear-gradient(90deg,#ff7e5f,#feb47b)}
+.option.selected{background:linear-gradient(90deg,#00c6ff,#0072ff)}
+button{padding:10px;margin:5px;border:none;border-radius:10px;background:#00c6ff;color:white}
